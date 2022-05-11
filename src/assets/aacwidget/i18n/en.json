@@ -25,7 +25,7 @@
 	},
 	"street": {
 		"placeholder": {
-			"input-placeholder": "Provide a streetName..."
+			"input-placeholder": "Provide a street name..."
 		},
 		"suggestion": {
 			"message": {
@@ -35,7 +35,7 @@
 	},
 	"streetNumber": {
 		"placeholder": {
-			"input-placeholder": "Provide a streetNumber..."
+			"input-placeholder": "Provide a street number..."
 		},
 		"suggestion": {
 			"message": {
@@ -48,7 +48,7 @@
 	},
 	"boxNumber": {
 		"placeholder": {
-			"input-placeholder": "Provide a boxNumber..."
+			"input-placeholder": "Provide a box number..."
 		},
 		"suggestion": {
 			"message": {
