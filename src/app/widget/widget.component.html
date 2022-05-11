@@ -1,0 +1,17 @@
+<button type="button" (click)="onSelectLanguage('fr')">FR</button>
+&nbsp;
+<button type="button" (click)="onSelectLanguage('nl')">NL</button>
+&nbsp;
+<button type="button" (click)="onSelectLanguage('en')">EN</button>
+&nbsp;
+<button type="button" (click)="onSelectLanguage('de')">DE</button>
+&nbsp;
+<button type="button" (click)="onSelectLanguage('browser')">Browser</button>
+
+<bp-lib-address-autocomplete-by-component
+  [defaultLang]="defaultLanguage"
+  [inputLang]="selectedLanguage"
+  (addressCompleteEventEmitter)="onAddressComplete($event)"
+  (clearInputEventEmitter)="onClearInputEventMessage($event)"
+  (validationMessageEventEmitter)="onAddressValidationMessage($event)"
+></bp-lib-address-autocomplete-by-component>
