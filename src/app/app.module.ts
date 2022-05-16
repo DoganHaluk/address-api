@@ -5,14 +5,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LibAddressAutocompleteByComponentModule } from '@bpost/bp-address-auto-complete-by-component';
 import { MultiTranslateHttpLoader } from 'ngx-translate-multi-http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { WidgetComponent } from './widget/widget.component';
 import { RouterModule } from "@angular/router";
-
 
 export function HttpLoaderFactory(http: HttpClient) {                   // <------
 // const i18nResourcePath = environment.i18nResourcePath;
@@ -33,8 +31,6 @@ export function HttpLoaderFactory(http: HttpClient) {                   // <----
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule,
 
     TranslateModule.forRoot({               // <------
       defaultLanguage: 'en',

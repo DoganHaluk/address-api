@@ -8,6 +8,7 @@
 &nbsp;
 <button type="button" (click)="onSelectLanguage('browser')">Browser</button>
 
+
 <bp-lib-address-autocomplete-by-component
   [defaultLang]="defaultLanguage"
   [inputLang]="selectedLanguage"
@@ -15,3 +16,5 @@
   (clearInputEventEmitter)="onClearInputEventMessage($event)"
   (validationMessageEventEmitter)="onAddressValidationMessage($event)"
 ></bp-lib-address-autocomplete-by-component>
+
+<button type="button" class="add-button" (click)="submitForm()">Submit</button>
