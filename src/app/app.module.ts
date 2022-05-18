@@ -10,7 +10,6 @@ import { LibAddressAutocompleteByComponentModule } from '@bpost/bp-address-auto-
 import { MultiTranslateHttpLoader } from 'ngx-translate-multi-http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { WidgetComponent } from './widget/widget.component';
-import { RouterModule } from "@angular/router";
 
 export function HttpLoaderFactory(http: HttpClient) {                   // <------
 // const i18nResourcePath = environment.i18nResourcePath;
@@ -42,7 +41,6 @@ export function HttpLoaderFactory(http: HttpClient) {                   // <----
     }),
 
     LibAddressAutocompleteByComponentModule,  // <------
-    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

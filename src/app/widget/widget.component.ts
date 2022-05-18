@@ -12,6 +12,7 @@ export class WidgetComponent implements OnInit {
   defaultLanguage = 'en';
   selectedLanguage: string = '';
   data: any = {};
+  clicked = false;
 
   constructor(
     private translate: TranslateService,
@@ -59,7 +60,7 @@ export class WidgetComponent implements OnInit {
   }
 
   submitForm() {
-    const headers = {'content-type': 'application/json'}
+    const headers = {'content-type': 'application/json'};
     const jsonBody = JSON.stringify(this.data);
     console.log(jsonBody);
     this.http
@@ -68,5 +69,6 @@ export class WidgetComponent implements OnInit {
         next: (response) => console.log(response),
         error: (error) => console.log(error),
       });
+    this.clicked = true;
   }
 }

@@ -17,4 +17,4 @@
   (validationMessageEventEmitter)="onAddressValidationMessage($event)"
 ></bp-lib-address-autocomplete-by-component>
 
-<button type="button" class="add-button" (click)="submitForm()">Submit</button>
+<button type="button" class="add-button" (click)="submitForm()" [disabled]="clicked">Submit</button>
