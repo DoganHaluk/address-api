@@ -35,7 +35,7 @@
 	},
 	"streetNumber": {
 		"placeholder": {
-			"input-placeholder": "Voer een straat nummer in ..."
+			"input-placeholder": "Voer een huis nummer in ..."
 		},
 		"suggestion": {
 			"message": {
@@ -43,7 +43,7 @@
 			}
 		},
 		"message": {
-			"not-in-list": "Het straat nummer staat niet in de lijst"
+			"not-in-list": "Het huis nummer staat niet in de lijst"
 		}
 	},
 	"boxNumber": {

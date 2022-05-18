@@ -30,7 +30,7 @@ export class WidgetComponent implements OnInit {
         municipalityName: event.localityName,
         postalCode: event.postalCode,
         streetName: event.streetName,
-        streetNumber: event.houseNumber,
+        houseNumber: event.houseNumber,
         boxNumber: event.boxNumber
       }
       console.log(data);

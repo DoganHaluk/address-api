@@ -35,7 +35,7 @@
 	},
 	"streetNumber": {
 		"placeholder": {
-			"input-placeholder": "Fournir un numéro de rue..."
+			"input-placeholder": "Fournir un numéro de maison..."
 		},
 		"suggestion": {
 			"message": {
@@ -43,7 +43,7 @@
 			}
 		},
 		"message": {
-			"not-in-list": "Le numéro de rue n'est pas dans la liste"
+			"not-in-list": "Le numéro de maison n'est pas dans la liste"
 		}
 	},
 	"boxNumber": {

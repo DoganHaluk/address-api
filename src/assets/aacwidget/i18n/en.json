@@ -35,7 +35,7 @@
 	},
 	"streetNumber": {
 		"placeholder": {
-			"input-placeholder": "Provide a street number..."
+			"input-placeholder": "Provide a house number..."
 		},
 		"suggestion": {
 			"message": {
@@ -43,7 +43,7 @@
 			}
 		},
 		"message": {
-			"not-in-list": "The House Number is not in the list"
+			"not-in-list": "The house number is not in the list"
 		}
 	},
 	"boxNumber": {
@@ -56,7 +56,7 @@
 			}
 		},
 		"message": {
-			"not-in-list": "The Box Number is not in the list"
+			"not-in-list": "The box number is not in the list"
 		}
 	}
 }
