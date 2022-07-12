@@ -6,11 +6,11 @@
 			"service-unavailable": "Er kon geen verbinding gemaakt worden. Probeer later opnieuw."
 		},
 		"label": {
-			"boxNumber": "postbus",
-			"streetNumber": "huisnummer",
-			"municipalityName": "gemeente",
-			"postalCode": "postcode",
-			"streetName": "straatnaam"
+			"boxNumber": "Postbus",
+			"streetNumber": "Huisnummer",
+			"municipalityName": "Gemeente",
+			"postalCode": "Postcode",
+			"streetName": "Straatnaam"
 		}
 	},
 	"locality": {

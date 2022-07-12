@@ -18,3 +18,8 @@
 ></bp-lib-address-autocomplete-by-component>
 
 <button type="button" class="add-button" (click)="submitForm()" [disabled]="clicked">Submit</button>
+
+<div *ngIf="clicked">
+  {{address}}
+  <button (click)="reloadPage()">Reload</button>
+</div>

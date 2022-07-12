@@ -12,7 +12,8 @@ export class WidgetComponent implements OnInit {
   defaultLanguage = 'en';
   selectedLanguage: string = '';
   data: any = {};
-  clicked = false;
+  address: string = "";
+  clicked = true;
 
   constructor(
     private translate: TranslateService,
@@ -33,6 +34,7 @@ export class WidgetComponent implements OnInit {
         houseNumber: event.houseNumber,
         boxNumber: event.boxNumber
       }
+      this.clicked = false;
       console.log(data);
       this.data = data
     } else {
@@ -66,9 +68,28 @@ export class WidgetComponent implements OnInit {
     this.http
       .post('http://localhost:8080/address', jsonBody, {headers})
       .subscribe({
-        next: (response) => console.log(response),
+        next: (response) => this.addressSubmitted(response),
         error: (error) => console.log(error),
       });
     this.clicked = true;
+  }
+
+  addressSubmitted(response: any) {
+    let street = response.streetName;
+    let house = response.houseNumber;
+    let box = response.boxNumber;
+    if (box == null) {
+      box = "";
+    } else {
+      box = "Bus:".concat(box, ", ");
+    }
+    let code = response.postalCode;
+    let city = response.municipalityName;
+    this.address = street.concat(" ", house, ", ", box, code, " ", city);
+    console.log(this.address);
+  }
+
+  reloadPage(){
+    window.location.reload();
   }
 }

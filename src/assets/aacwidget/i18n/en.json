@@ -6,11 +6,11 @@
 			"service-unavailable": "The service could not be reached. Please try again later."
 		},
 		"label": {
-			"boxNumber": "box number",
-			"streetNumber": "house number",
-			"municipalityName": "municipality",
-			"postalCode": "postal code",
-			"streetName": "street name"
+			"boxNumber": "Box number",
+			"streetNumber": "House number",
+			"municipalityName": "Municipality",
+			"postalCode": "Postal code",
+			"streetName": "Street name"
 		}
 	},
 	"locality": {

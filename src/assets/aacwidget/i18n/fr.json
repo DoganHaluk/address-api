@@ -6,11 +6,11 @@
 			"service-unavailable": "Le service n'est pas disponible, veuillez réessayer plus tard."
 		},
 		"label": {
-			"boxNumber": "une boîte postale",
-			"streetNumber": "un numéro de maison",
-			"municipalityName": "un nom de commune",
-			"postalCode": "un code postal",
-			"streetName": "un nom de rue"
+			"boxNumber": "Une boîte postale",
+			"streetNumber": "Un numéro de maison",
+			"municipalityName": "Un nom de commune",
+			"postalCode": "Un code postal",
+			"streetName": "Un nom de rue"
 		}
 	},
 	"locality": {

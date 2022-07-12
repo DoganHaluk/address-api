@@ -4,3 +4,9 @@
 .aacwidget-address-container{
   margin-right: 20px;
 }
+
+button{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: inherit;
+}
